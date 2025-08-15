@@ -15,25 +15,38 @@ gh auth login
 
 3) Clonar o repositório usado nas aulas para o computador:
 ```
-gh repo clone LP-99159---TEST
+gh repo clone nome-do-repositorio
 ```
 
 
 4) Entrar na pasta criada com o clone do repositório:
 ```
-cd LP-99159---TEST
+cd nome-do-repositorio
 ```
 
 5) Abrir o VSCode pelo terminal:
 ```
 code .
 ```
-gh auth login
 
-gh repo clone LP-99159--- TEST
+## Durante a aula:
 
-cd LP-99159--- TEST
+1) Adicionando arquivos para o commit.
+```
+git add .
+```
 
-code .
+2) Realizando o commit.
+```
+git commit -m "feat: o que foi feito."
+```
 
-'''
+3) Atualizar com dados do GitHub.
+```
+git pull
+```
+
+4) Enviar para GitHub.
+```
+git push
+```
